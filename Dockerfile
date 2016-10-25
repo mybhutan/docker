@@ -6,5 +6,3 @@ COPY . /usr/src/app
 RUN chmod +x /opt/install-yarn.sh && \
 	/bin/bash /opt/install-yarn.sh && \
 	rm /opt/install-yarn.sh
-
-EXPOSE 8001
